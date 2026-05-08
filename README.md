@@ -1,4 +1,4 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1232183207)
+
 <!-- First include the example/template's partial. Examples include the exmaple-intro.partial in turn. -->
 
 # rf-python-varfiles
@@ -16,6 +16,8 @@ This is the easiest way to run the example — no local installation needed. Jus
 
 [![Run this Robot in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/robotmk/example-rf-python-varfiles)
 
+→ [How to run the example in Codespace](https://github.com/elabit/robotmk-starter/blob/main/docs/example-guide.md)
+
 > **What is a GitHub Codespace?**  
 > A Codespace is a browser-based development environment (VS Code) hosted by GitHub — no local installation needed.  
 
@@ -26,10 +28,11 @@ To run the example manually, refer to the blog post with the step-by-step instru
 → [Troubleshooting RCC](https://www.robotmk.org/en/blog/rcctrouble/)
 
 
+## About this Robot Framework test
+
 Minimal example for loading variables and configuration into a Robot Framework suite from Python and YAML files.
 Demonstrates the three variable file patterns supported by RF: plain scalars, nested dicts, and the `get_variables()` function — plus YAML as a data-format alternative to Python.
 
-## About this Robot Framework test
 
 - Exposing computed scalar values (e.g. current user, timestamp) from a Python variable file
 - Accessing values from a nested dict loaded via a Python variable file using the `[key]` subscript syntax
@@ -49,13 +52,17 @@ Demonstrates the three variable file patterns supported by RF: plain scalars, ne
 
 ## Links
 
+### Recommended links for this example
 - [Robot Framework — Variable Files](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#variable-files)
+
+### General links & Documentation
+
 - [Robot Framework](https://robotframework.org)
 - [Robotmk Homepage](https://robotmk.org)
 
 
 
-## Libraries & Versions
+## Libraries and Versions used in this example
 
 | Library | Version |
 |---|---|
@@ -65,12 +72,12 @@ Demonstrates the three variable file patterns supported by RF: plain scalars, ne
 
 ## About
 
-Also try the other RF example suites, they all work in the Codespace environment.  
+Also try the other [RF example suites](https://github.com/elabit/robotmk-starter#content), they all work in the Codespace environment.  
 
-Found a bug or have a suggestion?  
+🪲 Found a bug or have a suggestion?  
 → [Open an issue](https://github.com/robotmk/robotmk-starter/issues) or submit a [pull request](https://github.com/robotmk/robotmk-starter/pulls) — contributions are welcome.
 
-Want to go deeper? Want ot get a certified professional?  
+📖 Want to go deeper? Want ot get a certified professional?  
 → I offer [Synthetic Monitoring Trainings](https://lp.robotmk.org/robotmk-masterclass-4d-en) or book a free [call](https://meet.brevo.com/simon-meggle).
 
 **Simon Meggle** — Founder of Robotmk, Product Manager Synthetic Monitoring at Checkmk
@@ -78,6 +85,6 @@ Want to go deeper? Want ot get a certified professional?
 >
 > **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/rf-python-varfiles).**
 > Do not edit files here directly — changes will be overwritten on the next sync.
-> Last sync: [`b96f5d3`](https://github.com/elabit/robotmk-starter/commit/b96f5d3e297f6ae35943ba7942b7e9b8dac4cd0e)
+> Last sync: [`400b12d`](https://github.com/elabit/robotmk-starter/commit/400b12de5a6b16dee974dfe397ff59ce01a99e71)
 
 ---
